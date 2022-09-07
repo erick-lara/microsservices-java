@@ -28,10 +28,8 @@ public class WorkerController {
         return ResponseEntity.ok(list);
     }
 
-    @GetMapping("/{id}")
+    @GetMapping(value = "/{id}")
     public ResponseEntity<Worker> findById(@PathVariable Long id){
-        return ResponseEntity.ok(
-                workerRepository.findById(id).get()
-        );
+        return ResponseEntity.ok(workerRepository.findById(id).get());
     }
 }
