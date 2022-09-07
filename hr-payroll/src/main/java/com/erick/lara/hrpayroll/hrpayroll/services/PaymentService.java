@@ -1,8 +1,8 @@
-package com.example.hrpayroll.hrpayroll.services;
+package com.erick.lara.hrpayroll.hrpayroll.services;
 
-import com.example.hrpayroll.hrpayroll.entities.Payment;
-import com.example.hrpayroll.hrpayroll.entities.Worker;
-import com.example.hrpayroll.hrpayroll.feignclients.WorkerFeignClient;
+import com.erick.lara.hrpayroll.hrpayroll.entities.Payment;
+import com.erick.lara.hrpayroll.hrpayroll.entities.Worker;
+import com.erick.lara.hrpayroll.hrpayroll.feignclients.WorkerFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,7 +1,7 @@
-package com.example.hrpayroll.hrpayroll.controllers;
+package com.erick.lara.hrpayroll.hrpayroll.controllers;
 
-import com.example.hrpayroll.hrpayroll.entities.Payment;
-import com.example.hrpayroll.hrpayroll.services.PaymentService;
+import com.erick.lara.hrpayroll.hrpayroll.entities.Payment;
+import com.erick.lara.hrpayroll.hrpayroll.services.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
